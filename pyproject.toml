@@ -1,0 +1,18 @@
+[project]
+name = "aerial-classification"
+version = "0.1.0"
+description = "Aerial object classification/detection (Kaggle training, PyTorch CPU)"
+authors = [{name="Ruhe Tarannum"}]
+requires-python = ">=3.10,<3.11"
+
+[project.dependencies]
+numpy = "<2"
+pandas = "*"
+matplotlib = "*"
+scikit-learn = "*"
+pillow = "*"
+tqdm = "*"
+streamlit = "*"
+
+[tool.metadata]
+notes = "Use Kaggle for main training. Pin numpy<2 before installing ultralytics on Kaggle."
